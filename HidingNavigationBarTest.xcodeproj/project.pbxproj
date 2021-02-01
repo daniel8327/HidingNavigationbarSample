@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0019E2A26DCFA920CECD41E /* Pods_HidingNavigationBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69687F713BEE9D373634F5C3 /* Pods_HidingNavigationBar.framework */; };
+		CE83731525B12668001ED491 /* ACell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE83731125B12668001ED491 /* ACell.swift */; };
+		CE83731625B12668001ED491 /* HeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE83731225B12668001ED491 /* HeaderCell.xib */; };
+		CE83731725B12668001ED491 /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE83731325B12668001ED491 /* HeaderCell.swift */; };
+		CE83731825B12668001ED491 /* ACell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE83731425B12668001ED491 /* ACell.xib */; };
+		CEDFA05225AD64A3009EBD3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFA05125AD64A3009EBD3E /* AppDelegate.swift */; };
+		CEDFA05425AD64A3009EBD3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFA05325AD64A3009EBD3E /* SceneDelegate.swift */; };
+		CEDFA05625AD64A3009EBD3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDFA05525AD64A3009EBD3E /* ViewController.swift */; };
+		CEDFA05925AD64A3009EBD3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDFA05725AD64A3009EBD3E /* Main.storyboard */; };
+		CEDFA05B25AD64A4009EBD3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDFA05A25AD64A4009EBD3E /* Assets.xcassets */; };
+		CEDFA05E25AD64A4009EBD3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDFA05C25AD64A4009EBD3E /* LaunchScreen.storyboard */; };
+		CEF309BD25C7E80500D4D45D /* STCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF309BC25C7E80500D4D45D /* STCollectionViewFlowLayout.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		69687F713BEE9D373634F5C3 /* Pods_HidingNavigationBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HidingNavigationBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73C9ADF597F63AC684BF869D /* Pods-HidingNavigationBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HidingNavigationBar.debug.xcconfig"; path = "Target Support Files/Pods-HidingNavigationBar/Pods-HidingNavigationBar.debug.xcconfig"; sourceTree = "<group>"; };
+		CE83731125B12668001ED491 /* ACell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACell.swift; sourceTree = "<group>"; };
+		CE83731225B12668001ED491 /* HeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderCell.xib; sourceTree = "<group>"; };
+		CE83731325B12668001ED491 /* HeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		CE83731425B12668001ED491 /* ACell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ACell.xib; sourceTree = "<group>"; };
+		CEDFA04E25AD64A3009EBD3E /* HidingNavigationBarTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HidingNavigationBarTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEDFA05125AD64A3009EBD3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEDFA05325AD64A3009EBD3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CEDFA05525AD64A3009EBD3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEDFA05825AD64A3009EBD3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEDFA05A25AD64A4009EBD3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEDFA05D25AD64A4009EBD3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEDFA05F25AD64A4009EBD3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEF309BC25C7E80500D4D45D /* STCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		FB395716EB90A8685DCC417C /* Pods-HidingNavigationBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HidingNavigationBar.release.xcconfig"; path = "Target Support Files/Pods-HidingNavigationBar/Pods-HidingNavigationBar.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEDFA04B25AD64A3009EBD3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0019E2A26DCFA920CECD41E /* Pods_HidingNavigationBar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		667CB5CAED38CE0CAAA2E323 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69687F713BEE9D373634F5C3 /* Pods_HidingNavigationBar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA70E26AF4B6D43E94E0BCA6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73C9ADF597F63AC684BF869D /* Pods-HidingNavigationBar.debug.xcconfig */,
+				FB395716EB90A8685DCC417C /* Pods-HidingNavigationBar.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CEDFA04525AD64A3009EBD3E = {
+			isa = PBXGroup;
+			children = (
+				CEDFA05025AD64A3009EBD3E /* HidingNavigationBar */,
+				CEDFA04F25AD64A3009EBD3E /* Products */,
+				BA70E26AF4B6D43E94E0BCA6 /* Pods */,
+				667CB5CAED38CE0CAAA2E323 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CEDFA04F25AD64A3009EBD3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEDFA04E25AD64A3009EBD3E /* HidingNavigationBarTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEDFA05025AD64A3009EBD3E /* HidingNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				CEDFA05125AD64A3009EBD3E /* AppDelegate.swift */,
+				CEDFA05325AD64A3009EBD3E /* SceneDelegate.swift */,
+				CEDFA05525AD64A3009EBD3E /* ViewController.swift */,
+				CEF309BC25C7E80500D4D45D /* STCollectionViewFlowLayout.swift */,
+				CEDFA05725AD64A3009EBD3E /* Main.storyboard */,
+				CEDFA05A25AD64A4009EBD3E /* Assets.xcassets */,
+				CEDFA05C25AD64A4009EBD3E /* LaunchScreen.storyboard */,
+				CEDFA05F25AD64A4009EBD3E /* Info.plist */,
+				CE83731125B12668001ED491 /* ACell.swift */,
+				CE83731425B12668001ED491 /* ACell.xib */,
+				CE83731325B12668001ED491 /* HeaderCell.swift */,
+				CE83731225B12668001ED491 /* HeaderCell.xib */,
+			);
+			path = HidingNavigationBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEDFA04D25AD64A3009EBD3E /* HidingNavigationBarTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEDFA06225AD64A4009EBD3E /* Build configuration list for PBXNativeTarget "HidingNavigationBarTest" */;
+			buildPhases = (
+				AF04620BCA6C69D553C6DD30 /* [CP] Check Pods Manifest.lock */,
+				CEDFA04A25AD64A3009EBD3E /* Sources */,
+				CEDFA04B25AD64A3009EBD3E /* Frameworks */,
+				CEDFA04C25AD64A3009EBD3E /* Resources */,
+				770B00C8A0360F6E01B192E6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HidingNavigationBarTest;
+			productName = HidingNavigationBar;
+			productReference = CEDFA04E25AD64A3009EBD3E /* HidingNavigationBarTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEDFA04625AD64A3009EBD3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					CEDFA04D25AD64A3009EBD3E = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = CEDFA04925AD64A3009EBD3E /* Build configuration list for PBXProject "HidingNavigationBarTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEDFA04525AD64A3009EBD3E;
+			productRefGroup = CEDFA04F25AD64A3009EBD3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEDFA04D25AD64A3009EBD3E /* HidingNavigationBarTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEDFA04C25AD64A3009EBD3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE83731825B12668001ED491 /* ACell.xib in Resources */,
+				CE83731625B12668001ED491 /* HeaderCell.xib in Resources */,
+				CEDFA05E25AD64A4009EBD3E /* LaunchScreen.storyboard in Resources */,
+				CEDFA05B25AD64A4009EBD3E /* Assets.xcassets in Resources */,
+				CEDFA05925AD64A3009EBD3E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		770B00C8A0360F6E01B192E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HidingNavigationBar/Pods-HidingNavigationBar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HidingNavigationBar/Pods-HidingNavigationBar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HidingNavigationBar/Pods-HidingNavigationBar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF04620BCA6C69D553C6DD30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HidingNavigationBar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEDFA04A25AD64A3009EBD3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEF309BD25C7E80500D4D45D /* STCollectionViewFlowLayout.swift in Sources */,
+				CEDFA05625AD64A3009EBD3E /* ViewController.swift in Sources */,
+				CE83731725B12668001ED491 /* HeaderCell.swift in Sources */,
+				CEDFA05225AD64A3009EBD3E /* AppDelegate.swift in Sources */,
+				CEDFA05425AD64A3009EBD3E /* SceneDelegate.swift in Sources */,
+				CE83731525B12668001ED491 /* ACell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEDFA05725AD64A3009EBD3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEDFA05825AD64A3009EBD3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEDFA05C25AD64A4009EBD3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEDFA05D25AD64A4009EBD3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEDFA06025AD64A4009EBD3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEDFA06125AD64A4009EBD3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEDFA06325AD64A4009EBD3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73C9ADF597F63AC684BF869D /* Pods-HidingNavigationBar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93YL8E7YZM;
+				INFOPLIST_FILE = HidingNavigationBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.sejongtelecom.HidingNavigationBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEDFA06425AD64A4009EBD3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB395716EB90A8685DCC417C /* Pods-HidingNavigationBar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 93YL8E7YZM;
+				INFOPLIST_FILE = HidingNavigationBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.sejongtelecom.HidingNavigationBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEDFA04925AD64A3009EBD3E /* Build configuration list for PBXProject "HidingNavigationBarTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDFA06025AD64A4009EBD3E /* Debug */,
+				CEDFA06125AD64A4009EBD3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEDFA06225AD64A4009EBD3E /* Build configuration list for PBXNativeTarget "HidingNavigationBarTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEDFA06325AD64A4009EBD3E /* Debug */,
+				CEDFA06425AD64A4009EBD3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEDFA04625AD64A3009EBD3E /* Project object */;
+}

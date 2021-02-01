@@ -1,0 +1,16 @@
+PODS:
+  - HidingNavigationBar (2.0.1)
+
+DEPENDENCIES:
+  - HidingNavigationBar
+
+SPEC REPOS:
+  trunk:
+    - HidingNavigationBar
+
+SPEC CHECKSUMS:
+  HidingNavigationBar: 82c06978041080f0e4d97095563414a4367b71c6
+
+PODFILE CHECKSUM: 5d862a13740e8b7a2ff454b3ee95f93f20e448c0
+
+COCOAPODS: 1.8.3
