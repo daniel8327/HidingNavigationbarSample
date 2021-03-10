@@ -19,6 +19,9 @@ class ViewController: UIViewController {
     @IBOutlet var imgEdit: UIImageView!
     @IBOutlet var imgCrop: UIImageView!
     
+    let margin: CGFloat = 10
+    let cellItemCount: CGFloat = 3
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -34,9 +37,14 @@ class ViewController: UIViewController {
         let flowLayout = UICollectionViewFlowLayout()
         //let flowLayout = STCollectionViewFlowLayout() // https://github.com/AnanthaKrish/StretchyCollectionView
         flowLayout.scrollDirection = .vertical
-        flowLayout.minimumLineSpacing = 10
-        flowLayout.minimumInteritemSpacing = 5
-        flowLayout.itemSize.width = (UIScreen.main.bounds.width - (4 * flowLayout.minimumInteritemSpacing)) / 3
+//        flowLayout.minimumLineSpacing = 10
+//        flowLayout.minimumInteritemSpacing = 5
+        
+        flowLayout.sectionInset = UIEdgeInsets(top: margin, left: margin, bottom: margin, right: margin) // CollectionView 의 전체 마진
+        flowLayout.minimumLineSpacing = margin // 셀 아이템간의 라인 마진
+        flowLayout.minimumInteritemSpacing = margin // 셀 아이템간의 측면 마진
+        
+        flowLayout.itemSize.width = floor((UIScreen.main.bounds.width - flowLayout.sectionInset.left - flowLayout.sectionInset.right - ((cellItemCount - 1) * flowLayout.minimumInteritemSpacing)) / cellItemCount)
         flowLayout.itemSize.height = flowLayout.itemSize.width
         
         collectionView = UICollectionView(frame: self.view.frame, collectionViewLayout: flowLayout)
@@ -105,11 +113,7 @@ class ViewController: UIViewController {
         let rc = UIRefreshControl()
         rc.addTarget(self, action: #selector(addData(refreshControl:)), for: .valueChanged)
         rc.attributedTitle = NSAttributedString(string: "새로고침")
-        if #available(iOS 10.0, *) {
-            collectionView.refreshControl = rc
-        } else {
-            collectionView.addSubview(rc)
-        }
+        collectionView.refreshControl = rc
     }
     
     @objc func addData(refreshControl: UIRefreshControl){
